@@ -1,29 +1,5 @@
-.container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .filters {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 200px;
-  }
-  
-  .filters button {
-    width: 100px;
-  }
-  
-  .products {
-    margin: 0 100px;
-    border-top: 2px solid #999;
-  }
-  
-  .product-item {
-    border-bottom: 2px solid #999;
-  }
-  
-  /* Product Details 
-  .product {
+/* Product Details */
+.product {
     display: flex;
     justify-content: space-between;
     padding: 20px 25px;
@@ -78,4 +54,8 @@
     margin-top: -15px;
     color: orange;
   }
-  */
+
+  .strikethrough {
+    text-decoration: line-through;
+    font-size: 18px;
+  }
