@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IProduct } from './product.model';
-import { CartService } from '../cart/cart.service';
+import { CartService } from '../services/cart/cart.service';
 
 @Component({
   selector: 'akb-catalog',
