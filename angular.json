@@ -63,7 +63,8 @@
               "browserTarget": "abs-robots:build:production"
             },
             "development": {
-              "browserTarget": "abs-robots:build:development"
+              "browserTarget": "abs-robots:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
